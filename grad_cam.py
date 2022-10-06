@@ -63,7 +63,7 @@ for id in ids:
             record_y_gt += Y.ravel().tolist()
             record_y_pred += Y_pred
 
-            layer_name = "conv1d_4"
+            layer_name = "enter the layer name"
             label = ['Wake', 'N1', 'N2', 'N3', 'REM']
             cnt = 0
             for i in X:
@@ -85,6 +85,6 @@ for id in ids:
                     plt.plot(i, 'k')
                     plt.colorbar()
                     plt.show()
-                    plt.savefig(str(id) + str(cnt) + "CNN.png")
+                    plt.savefig(str(id) + str(cnt) + "model.png")
                 cnt += 1
 
