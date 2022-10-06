@@ -10,7 +10,6 @@ scipy<br />
 matplotlib<br />
 scikit-learn<br />
 matplotlib<br />
-imbalanced-learn(0.4.3)<br />
 pandas<br />
 mne<br />
 
