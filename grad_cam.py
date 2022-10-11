@@ -81,7 +81,7 @@ for id in ids:
                                cmap="Oranges",
                                alpha=0.8,
                                interpolation='bilinear',
-                               extent=[0, 3000, i.min(), i.max()])
+                               extent=["enter the length of the signal (3000,1)"])
                     plt.plot(i, 'k')
                     plt.colorbar()
                     plt.show()
