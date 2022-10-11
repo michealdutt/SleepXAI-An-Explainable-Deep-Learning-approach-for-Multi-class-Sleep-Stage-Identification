@@ -1,7 +1,5 @@
 # SleepXAI: An Explainable Deep Learning approach for Multi-class Sleep Stage Identification #
 
-## SleepXAI: An Explainable Deep Learning approach for Multi-class Sleep Stage Identification ##
-
 ### Requirements ###
 Python 2.7 <br />
 tensorflow/tensorflow-gpu<br />
