@@ -1,4 +1,4 @@
-# SleepXAI #
+# SleepXAI: An Explainable Deep Learning approach for Multi-class Sleep Stage Identification #
 
 ## SleepXAI: An Explainable Deep Learning approach for Multi-class Sleep Stage Identification ##
 
