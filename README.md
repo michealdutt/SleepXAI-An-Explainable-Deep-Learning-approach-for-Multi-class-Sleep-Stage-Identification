@@ -13,7 +13,7 @@ matplotlib<br />
 pandas<br />
 mne<br />
 
-### To download SC subset of subjects from the Sleep_EDF (2013) dataset, use the below script: ### 
+### To download SC subset of subjects from the Sleep_EDF (2013) dataset: ### 
 cd data_2013  <br />
 chmod +x download_physionet.sh  <br />
 ./download_physionet.sh <br />
@@ -25,3 +25,5 @@ Simply run "run.py" to generate four different models for EEG Fpz-Cz and Pz-Oz s
 
 ### Once the models are created, generate hypnogram and grad-cam visualization ### 
 run "cnn_hypnogram.py", "crf_hypnogram.py" and "grad_cam.py" <br />
+
+
