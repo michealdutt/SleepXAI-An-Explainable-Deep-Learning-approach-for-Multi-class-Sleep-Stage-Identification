@@ -29,6 +29,7 @@ def encode_model():
     return epoch_encoder
 
 
+#CNN model
 def get_model_cnn():
     seq_input = Input(shape=(None, 3000, 1))
     epoch_encoder = encode_model()
@@ -46,6 +47,7 @@ def get_model_cnn():
 
 
 
+#CRF model
 def get_model_cnn_crf(lr=0.001):
     nclass = 5
     seq_input = Input(shape=(None, 3000, 1))
